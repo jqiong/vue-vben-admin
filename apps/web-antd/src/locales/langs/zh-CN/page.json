@@ -11,5 +11,40 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "userList": {
+    "title": "用户列表",
+    "uid": "用户UID",
+    "nickname": "昵称",
+    "username": "用户名",
+    "lastLoginTime": "最近登录时间",
+    "lastLoginIp": "最近登录IP",
+    "monthlyLoginCount": "当月登录次数",
+    "registerTime": "注册时间",
+    "status": "状态",
+    "action": "操作",
+    "detail": "详情",
+    "freeze": "冻结",
+    "unfreeze": "解冻",
+    "active": "正常",
+    "frozen": "已冻结",
+    "userDetail": "用户详情",
+    "basicInfo": "基本信息",
+    "loginInfo": "登录信息",
+    "registerInfo": "注册信息",
+    "freezeSuccess": "用户冻结成功",
+    "freezeError": "用户冻结失败",
+    "unfreezeSuccess": "用户解冻成功",
+    "unfreezeError": "用户解冻失败",
+    "placeholder": {
+      "uid": "请输入用户UID",
+      "nickname": "请输入昵称",
+      "username": "请输入用户名",
+      "lastLoginIp": "请输入登录IP",
+      "startTime": "开始时间",
+      "endTime": "结束时间",
+      "min": "最小值",
+      "max": "最大值"
+    }
   }
 }

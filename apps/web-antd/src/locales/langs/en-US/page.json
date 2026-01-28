@@ -11,5 +11,40 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "userList": {
+    "title": "User List",
+    "uid": "User UID",
+    "nickname": "Nickname",
+    "username": "Username",
+    "lastLoginTime": "Last Login Time",
+    "lastLoginIp": "Last Login IP",
+    "monthlyLoginCount": "Monthly Login Count",
+    "registerTime": "Register Time",
+    "status": "Status",
+    "action": "Action",
+    "detail": "Detail",
+    "freeze": "Freeze",
+    "unfreeze": "Unfreeze",
+    "active": "Active",
+    "frozen": "Frozen",
+    "userDetail": "User Detail",
+    "basicInfo": "Basic Info",
+    "loginInfo": "Login Info",
+    "registerInfo": "Register Info",
+    "freezeSuccess": "User frozen successfully",
+    "freezeError": "Failed to freeze user",
+    "unfreezeSuccess": "User unfrozen successfully",
+    "unfreezeError": "Failed to unfreeze user",
+    "placeholder": {
+      "uid": "Please enter user UID",
+      "nickname": "Please enter nickname",
+      "username": "Please enter username",
+      "lastLoginIp": "Please enter login IP",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "min": "Min",
+      "max": "Max"
+    }
   }
 }

@@ -1,0 +1,8 @@
+{
+  "search": "Search",
+  "reset": "Reset",
+  "detail": "Detail",
+  "total": "Total {total}",
+  "fetchError": "Failed to fetch data",
+  "action": "Action"
+}
