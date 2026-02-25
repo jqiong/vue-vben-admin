@@ -11,5 +11,9 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "order": {
+    "title": "订单管理",
+    "management": "订单列表"
   }
 }
