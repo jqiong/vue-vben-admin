@@ -11,5 +11,19 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "order": {
+    "title": "Order Management",
+    "list": "Order List",
+    "id": "ID",
+    "orderNo": "Order No",
+    "submitTime": "Submit Time",
+    "userUid": "User UID",
+    "amount": "Amount",
+    "payType": "Pay Type",
+    "orderSource": "Order Source",
+    "action": "Action",
+    "view": "View",
+    "delete": "Delete"
   }
 }
