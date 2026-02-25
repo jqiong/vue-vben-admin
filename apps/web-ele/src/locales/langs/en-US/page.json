@@ -11,5 +11,11 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "userComparison": {
+    "title": "User Registration Comparison",
+    "queryTitle": "Query Conditions",
+    "lineChartTitle": "User Registration Trend Comparison (Line Chart)",
+    "barChartTitle": "User Registration Quantity Comparison (Bar Chart)"
   }
 }
