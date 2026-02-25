@@ -87,6 +87,30 @@ const dashboardMenus = [
   },
 ];
 
+const orderMenus = [
+  {
+    meta: {
+      icon: 'lucide:shopping-cart',
+      order: 0,
+      title: 'page.order.title',
+    },
+    name: 'Order',
+    path: '/order',
+    redirect: '/order/management',
+    children: [
+      {
+        name: 'OrderManagement',
+        path: '/order/management',
+        component: '/order/index',
+        meta: {
+          icon: 'lucide:list',
+          title: 'page.order.management',
+        },
+      },
+    ],
+  },
+];
+
 const createDemosMenus = (role: 'admin' | 'super' | 'user') => {
   const roleWithMenus = {
     admin: {
@@ -178,15 +202,15 @@ const createDemosMenus = (role: 'admin' | 'super' | 'user') => {
 
 export const MOCK_MENUS = [
   {
-    menus: [...dashboardMenus, ...createDemosMenus('super')],
+    menus: [...dashboardMenus, ...orderMenus, ...createDemosMenus('super')],
     username: 'vben',
   },
   {
-    menus: [...dashboardMenus, ...createDemosMenus('admin')],
+    menus: [...dashboardMenus, ...orderMenus, ...createDemosMenus('admin')],
     username: 'admin',
   },
   {
-    menus: [...dashboardMenus, ...createDemosMenus('user')],
+    menus: [...dashboardMenus, ...orderMenus, ...createDemosMenus('user')],
     username: 'jack',
   },
 ];
