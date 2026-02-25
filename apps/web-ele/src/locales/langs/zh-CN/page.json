@@ -10,6 +10,7 @@
   "dashboard": {
     "title": "概览",
     "analytics": "分析页",
-    "workspace": "工作台"
+    "workspace": "工作台",
+    "userComparison": "注册用户对比"
   }
 }

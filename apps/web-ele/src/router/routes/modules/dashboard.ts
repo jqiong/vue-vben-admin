@@ -31,6 +31,15 @@ const routes: RouteRecordRaw[] = [
           title: $t('page.dashboard.workspace'),
         },
       },
+      {
+        name: 'UserComparison',
+        path: '/user-comparison',
+        component: () => import('#/views/dashboard/user-comparison/index.vue'),
+        meta: {
+          icon: 'lucide:users',
+          title: $t('page.dashboard.userComparison'),
+        },
+      },
     ],
   },
 ];
