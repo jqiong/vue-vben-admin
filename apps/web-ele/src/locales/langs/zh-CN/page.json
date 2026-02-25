@@ -11,5 +11,11 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "userComparison": {
+    "title": "注册用户对比",
+    "queryTitle": "查询条件",
+    "lineChartTitle": "注册用户趋势对比（折线图）",
+    "barChartTitle": "注册用户数量对比（柱状图）"
   }
 }
