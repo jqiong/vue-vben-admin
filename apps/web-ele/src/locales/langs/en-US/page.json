@@ -11,5 +11,8 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "userComparison": {
+    "title": "User Registration Comparison"
   }
 }

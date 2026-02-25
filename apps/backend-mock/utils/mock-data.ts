@@ -87,30 +87,6 @@ const dashboardMenus = [
   },
 ];
 
-const createDemosMenus = (role: 'admin' | 'super' | 'user') => {
-  const roleWithMenus = {
-    admin: {
-      component: '/demos/access/admin-visible',
-      meta: {
-        icon: 'mdi:button-cursor',
-        title: 'demos.access.adminVisible',
-      },
-      name: 'AccessAdminVisibleDemo',
-      path: '/demos/access/admin-visible',
-    },
-    super: {
-      component: '/demos/access/super-visible',
-      meta: {
-        icon: 'mdi:button-cursor',
-        title: 'demos.access.superVisible',
-      },
-      name: 'AccessSuperVisibleDemo',
-      path: '/demos/access/super-visible',
-    },
-    user: {
-      component: '/demos/access/user-visible',
-      meta: {
-        icon: 'mdi:button-cursor',
         title: 'demos.access.userVisible',
       },
       name: 'AccessUserVisibleDemo',
@@ -202,15 +178,15 @@ export const MOCK_MENU_LIST = [
     component: '/dashboard/workspace/index',
     meta: {
       icon: 'carbon:workspace',
-      title: 'page.dashboard.workspace',
+    menus: [...dashboardMenus, ...createDemosMenus('super')],
       affixTab: true,
       order: 0,
     },
-  },
+    menus: [...dashboardMenus, ...createDemosMenus('admin')],
   {
     id: 2,
     meta: {
-      icon: 'carbon:settings',
+    menus: [...dashboardMenus, ...createDemosMenus('user')],
       order: 9997,
       title: 'system.title',
       badge: 'new',
