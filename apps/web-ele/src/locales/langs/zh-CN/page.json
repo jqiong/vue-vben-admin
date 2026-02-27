@@ -11,5 +11,21 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "system": {
+    "title": "系统管理"
+  },
+  "userList": {
+    "title": "用户列表",
+    "userDetail": "用户详情",
+    "uid": "用户UID",
+    "nickname": "昵称",
+    "username": "用户名",
+    "lastLoginTime": "最近登录时间",
+    "lastLoginIp": "最近登录IP",
+    "monthlyLoginCount": "当月登录次数",
+    "registerTime": "注册时间",
+    "status": "状态",
+    "exportTip": "请选择要导出的用户注册时间范围"
   }
 }
