@@ -11,5 +11,21 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "system": {
+    "title": "System Management"
+  },
+  "userList": {
+    "title": "User List",
+    "userDetail": "User Detail",
+    "uid": "User UID",
+    "nickname": "Nickname",
+    "username": "Username",
+    "lastLoginTime": "Last Login Time",
+    "lastLoginIp": "Last Login IP",
+    "monthlyLoginCount": "Monthly Login Count",
+    "registerTime": "Register Time",
+    "status": "Status",
+    "exportTip": "Please select the user registration time range to export"
   }
 }

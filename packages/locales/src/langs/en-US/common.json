@@ -6,6 +6,7 @@
   "prompt": "Prompt",
   "cancel": "Cancel",
   "confirm": "Confirm",
+  "close": "Close",
   "reset": "Reset",
   "noData": "No Data",
   "refresh": "Refresh",
@@ -20,5 +21,11 @@
   "yes": "Yes",
   "no": "No",
   "showSearchPanel": "Show search panel",
-  "hideSearchPanel": "Hide search panel"
+  "hideSearchPanel": "Hide search panel",
+  "export": "Export",
+  "detail": "Detail",
+  "freeze": "Freeze",
+  "unfreeze": "Unfreeze",
+  "normal": "Normal",
+  "frozen": "Frozen"
 }
