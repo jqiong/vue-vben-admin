@@ -37,6 +37,7 @@
     "@vben/types": "workspace:*",
     "@vben/utils": "workspace:*",
     "@vueuse/core": "catalog:",
+    "html2canvas": "^1.4.1",
     "vue": "catalog:",
     "vue-router": "catalog:"
   }

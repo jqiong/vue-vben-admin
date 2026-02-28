@@ -12,6 +12,7 @@ import {
   GlobalSearch,
   LanguageToggle,
   PreferencesButton,
+  ScreenshotButton,
   ThemeToggle,
   TimezoneButton,
 } from '../../widgets';
@@ -48,6 +49,11 @@ const rightSlots = computed(() => {
       name: 'global-search',
     });
   }
+
+  list.push({
+    index: REFERENCE_VALUE - 5,
+    name: 'screenshot',
+  });
 
   if (preferencesButtonPosition.value.header) {
     list.push({
@@ -156,6 +162,9 @@ function clearPreferencesAndLogout() {
             :menus="accessStore.accessMenus"
             class="mr-1 sm:mr-4"
           />
+        </template>
+        <template v-else-if="slot.name === 'screenshot'">
+          <ScreenshotButton class="mr-1" />
         </template>
 
         <template v-else-if="slot.name === 'preferences'">
