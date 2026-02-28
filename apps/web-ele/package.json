@@ -43,6 +43,7 @@
     "@vueuse/core": "catalog:",
     "dayjs": "catalog:",
     "element-plus": "catalog:",
+    "html2canvas": "^1.4.1",
     "pinia": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:"

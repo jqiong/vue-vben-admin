@@ -20,6 +20,7 @@ import { openWindow } from '@vben/utils';
 
 import { $t } from '#/locales';
 import { useAuthStore } from '#/store';
+import { ScreenshotWidget } from '#/widgets/screenshot';
 import LoginForm from '#/views/_core/authentication/login.vue';
 
 const notifications = ref<NotificationItem[]>([
@@ -190,6 +191,9 @@ watch(
         @remove="(item) => item.id && remove(item.id)"
         @make-all="handleMakeAll"
       />
+    </template>
+    <template #header-right-55>
+      <ScreenshotWidget />
     </template>
     <template #extra>
       <AuthenticationLoginExpiredModal
