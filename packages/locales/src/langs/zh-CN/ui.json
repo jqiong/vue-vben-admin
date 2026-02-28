@@ -116,6 +116,17 @@
     "timezone": {
       "setTimezone": "设置时区",
       "setSuccess": "时区设置成功"
-    }
+    },
+    "screenshot": "截屏",
+    "screenshotTitle": "截屏功能",
+    "screenshotCurrent": "当前屏截图",
+    "screenshotCurrentDesc": "截取当前可见区域",
+    "screenshotFull": "滚动截图",
+    "screenshotFullDesc": "截取完整页面（自动拼接滚动区域）",
+    "screenshotPreview": "预览",
+    "screenshotEmpty": "点击截图按钮开始截屏",
+    "screenshotCapture": "截图",
+    "screenshotRecapture": "重新截图",
+    "screenshotDownload": "下载图片"
   }
 }

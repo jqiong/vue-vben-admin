@@ -8,6 +8,7 @@ export {
   ArrowUpToLine,
   Bell,
   BookOpenText,
+  Camera,
   Check,
   ChevronDown,
   ChevronLeft,

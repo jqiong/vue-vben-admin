@@ -116,6 +116,17 @@
     "timezone": {
       "setTimezone": "Set Timezone",
       "setSuccess": "Timezone set successfully"
-    }
+    },
+    "screenshot": "Screenshot",
+    "screenshotTitle": "Screenshot Tool",
+    "screenshotCurrent": "Current Screen",
+    "screenshotCurrentDesc": "Capture the currently visible area",
+    "screenshotFull": "Full Page",
+    "screenshotFullDesc": "Capture the full page (auto-stitch scrollable areas)",
+    "screenshotPreview": "Preview",
+    "screenshotEmpty": "Click the capture button to start",
+    "screenshotCapture": "Capture",
+    "screenshotRecapture": "Recapture",
+    "screenshotDownload": "Download Image"
   }
 }
