@@ -45,7 +45,8 @@
     "element-plus": "catalog:",
     "pinia": "catalog:",
     "vue": "catalog:",
-    "vue-router": "catalog:"
+    "vue-router": "catalog:",
+    "html2canvas": "^1.4.1"
   },
   "devDependencies": {
     "unplugin-element-plus": "catalog:"
